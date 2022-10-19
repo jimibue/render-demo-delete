@@ -29,9 +29,14 @@ britney.render()
 
 // append the html
 let rh = new RenderHelper()
+
 rh.renderToDom(britney, '#bs')
 rh.renderToDom(mj, '#mj')
 rh.renderToDom(dalle2, '#d2')
+
+// using the static keyword in the RenderHelper class 
+// makes this a class method
+// RenderHelper.renderToDom
 
 
 // console.log(james)
@@ -44,4 +49,17 @@ rh.renderToDom(dalle2, '#d2')
 
 // // how do a get britneys full name from fan1?
 // console.log(james.musicians[0].getFullName())
+
+
+
+// class methods
+// Math.random
+
+
+// instance methods
+// britney.render()
+
+// Person.count - 8 billion
+// Person.name - Human
+// james.getName - james
 

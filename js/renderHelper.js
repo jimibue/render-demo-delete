@@ -1,10 +1,12 @@
 class RenderHelper {
   constructor() {
-    
+
   }
 
   // this function needs to be passed a object that has a render method
   // AND that render method needs to return an html element
+  
+  // instance method - called on the instance of the class
   renderToDom(instanceWithRenderMethod, selector) {
     // const sallyElement = sally.render();
     // here is your html
