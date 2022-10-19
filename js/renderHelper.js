@@ -1,5 +1,7 @@
 class RenderHelper {
-  constructor() {}
+  constructor() {
+    
+  }
 
   // this function needs to be passed a object that has a render method
   // AND that render method needs to return an html element
